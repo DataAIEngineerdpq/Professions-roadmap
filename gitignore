@@ -1,0 +1,14 @@
+# Entorno virtual de Python (no se sube: cada quien crea el suyo)
+.venv/
+venv/
+
+# Caché de Python (archivos generados automáticamente)
+__pycache__/
+*.pyc
+
+# Datos descargados: no se versionan (cambian todo el tiempo y pueden ser pesados)
+data/raw/*.json
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
