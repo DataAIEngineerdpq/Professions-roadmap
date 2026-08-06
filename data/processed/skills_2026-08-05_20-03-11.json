@@ -1,0 +1,367 @@
+[
+  {
+    "source": "arbeitnow",
+    "title": "Senior Data Engineer (m/w/d)",
+    "company": "ANGEHEUERT GmbH",
+    "location": "Berlin, Berlin, Deutschland",
+    "url": "https://www.arbeitnow.com/jobs/companies/angeheuert-gmbh/senior-data-engineer-berlin-129969",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "dbt",
+      "CI/CD",
+      "Azure",
+      "Data Pipelines",
+      "Machine Learning",
+      "Data Analytics",
+      "Data Architecture"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Senior Data Engineer",
+    "company": "LiveScore Group ",
+    "location": "London, England, United Kingdom",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/livescore-group/senior-data-engineer-london-121041",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "Docker",
+      "Terraform",
+      "GCP",
+      "BigQuery",
+      "Data Pipelines",
+      "Data Warehousing",
+      "Data Analytics",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Data Engineer",
+    "company": "LiveScore Group ",
+    "location": "London, England, United Kingdom",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/livescore-group/data-engineer-london-313309",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "Docker",
+      "Terraform",
+      "GCP",
+      "BigQuery",
+      "Data Pipelines",
+      "Data Warehousing",
+      "Data Analytics",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Data Engineer",
+    "company": "Atolls",
+    "location": "London, England, United Kingdom",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/atolls/data-engineer-london-350221",
+    "skills": [
+      "Python",
+      "SQL",
+      "MySQL",
+      "Airflow",
+      "dbt",
+      "Kafka",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "AWS",
+      "GCP",
+      "Data Pipelines",
+      "Data Analytics",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Data Engineer",
+    "company": "Atolls",
+    "location": "London, England, United Kingdom",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/atolls/data-engineer-london-346649",
+    "skills": [
+      "Python",
+      "SQL",
+      "MySQL",
+      "Airflow",
+      "dbt",
+      "Kafka",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "AWS",
+      "GCP",
+      "Data Pipelines",
+      "Data Analytics",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Data Engineering Manager (UK Remote)",
+    "company": "Ivcevidensia",
+    "location": "Remote, England, England",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/ivcevidensia/data-engineering-manager-uk-remote-36619",
+    "skills": [
+      "SQL",
+      "Azure",
+      "Databricks",
+      "Data Warehousing"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Software/Data Engineer",
+    "company": "Prima",
+    "location": "London",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/prima/software-data-engineer-london-333304",
+    "skills": [
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "NoSQL",
+      "Airflow",
+      "Spark",
+      "Kafka",
+      "Flink",
+      "CI/CD",
+      "AWS",
+      "Databricks",
+      "Redshift",
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Warehousing",
+      "Machine Learning",
+      "Data Analytics",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Data Engineer",
+    "company": "Prima",
+    "location": "London",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/prima/data-engineer-london-134322",
+    "skills": [
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "NoSQL",
+      "Airflow",
+      "Spark",
+      "Kafka",
+      "Flink",
+      "CI/CD",
+      "AWS",
+      "Databricks",
+      "Redshift",
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Warehousing",
+      "Machine Learning",
+      "Data Analytics",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Senior Data Engineer",
+    "company": "Salesloft",
+    "location": "Mexico",
+    "url": "https://jobicy.com/jobs/142570-senior-data-engineer-9",
+    "skills": [
+      "SQL",
+      "Airflow",
+      "dbt",
+      "AWS",
+      "GCP",
+      "Snowflake",
+      "Databricks",
+      "Data Pipelines",
+      "Data Warehousing",
+      "Machine Learning",
+      "Data Analytics",
+      "Data Architecture"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Senior Data Engineering Manager",
+    "company": "YipitData",
+    "location": "USA",
+    "url": "https://jobicy.com/jobs/149665-senior-data-engineering-manager",
+    "skills": [
+      "SQL",
+      "Airflow",
+      "Spark",
+      "Databricks",
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Analytics",
+      "Cloud",
+      "Data Architecture"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Senior Data Engineer",
+    "company": "Plain Concepts",
+    "location": "Spain",
+    "url": "https://jobicy.com/jobs/144144-senior-data-engineer",
+    "skills": [
+      "Python",
+      "SQL",
+      "NoSQL",
+      "dbt",
+      "Spark",
+      "CI/CD",
+      "AWS",
+      "Azure",
+      "Snowflake",
+      "Data Pipelines",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Senior AI Data Engineer",
+    "company": "Scorpion",
+    "location": "USA",
+    "url": "https://jobicy.com/jobs/145319-senior-ai-data-engineer",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "dbt",
+      "Spark",
+      "Azure",
+      "BigQuery",
+      "Snowflake",
+      "Databricks",
+      "Data Pipelines",
+      "Data Warehousing",
+      "Machine Learning",
+      "Data Analytics",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Senior Data Engineer",
+    "company": "Zartis",
+    "location": "Europe",
+    "url": "https://jobicy.com/jobs/148223-senior-data-engineer-2",
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "CI/CD",
+      "Azure",
+      "Data Pipelines",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Data Engineer, Engineering & Operations",
+    "company": "NBCUniversal",
+    "location": "USA",
+    "url": "https://jobicy.com/jobs/148199-data-engineer-engineering-operations",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "dbt",
+      "Spark",
+      "Snowflake",
+      "Databricks",
+      "Data Pipelines",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "greenhouse",
+    "title": "Data Analyst, Financial Data Engineering",
+    "company": "stripe",
+    "location": "New York",
+    "url": "https://stripe.com/jobs/search?gh_jid=8070572",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "Spark",
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Analytics",
+      "Data Architecture"
+    ]
+  },
+  {
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Data Engineering Solutions",
+    "company": "stripe",
+    "location": "Bengaluru",
+    "url": "https://stripe.com/jobs/search?gh_jid=7548037",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "Spark",
+      "Kafka",
+      "Flink",
+      "AWS",
+      "Data Pipelines",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Data Engineering Solutions",
+    "company": "stripe",
+    "location": "Seattle",
+    "url": "https://stripe.com/jobs/search?gh_jid=8013220",
+    "skills": [
+      "SQL",
+      "Airflow",
+      "Spark",
+      "Kafka",
+      "Flink",
+      "AWS",
+      "Data Pipelines",
+      "Cloud"
+    ]
+  },
+  {
+    "source": "greenhouse",
+    "title": "Senior Staff Data Engineer - Data Stewardship",
+    "company": "airbnb",
+    "location": "United States",
+    "url": "https://careers.airbnb.com/positions/7998356?gh_jid=7998356",
+    "skills": [
+      "SQL",
+      "Spark",
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Analytics"
+    ]
+  },
+  {
+    "source": "lever",
+    "title": "Staff Data Engineer — Subscriptions User Understanding",
+    "company": "spotify",
+    "location": "London",
+    "url": "https://jobs.lever.co/spotify/ba9d817a-a4aa-4452-ab56-ddd7cbc10943",
+    "skills": [
+      "Machine Learning",
+      "Data Analytics"
+    ]
+  }
+]

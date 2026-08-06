@@ -12,11 +12,12 @@ la máquina propone, el humano dispone.
 """
 
 import re
-import html
 import json
 import glob
 from pathlib import Path
 from collections import Counter
+
+from text_utils import limpiar_html
 
 CARPETA_RAW = Path(__file__).resolve().parent.parent / "data" / "raw"
 
@@ -41,16 +42,6 @@ PALABRAS_IGNORADAS = {
     "drive", "requirements", "deliver", "opportunity", "services",
     "performance", "engineers", "platforms", "world", "culture", "key",
 }
-
-
-def limpiar_html(texto_html: str) -> str:
-    """Convierte una descripción con HTML en texto plano legible."""
-    # 1) Quitamos las etiquetas <...> reemplazándolas por un espacio.
-    sin_etiquetas = re.sub(r"<[^>]+>", " ", texto_html or "")
-    # 2) Convertimos entidades como &nbsp; o &amp; a su carácter real.
-    texto = html.unescape(sin_etiquetas)
-    # 3) Colapsamos espacios múltiples en uno solo y recortamos los bordes.
-    return re.sub(r"\s+", " ", texto).strip()
 
 
 def tokenizar(texto: str) -> list[str]:
