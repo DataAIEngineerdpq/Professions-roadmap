@@ -24,7 +24,7 @@ CARPETA_RAW = Path(__file__).resolve().parent.parent / "data" / "raw"
 # para que no ensucien el ranking. Esta lista se puede ampliar cuando veas ruido.
 PALABRAS_IGNORADAS = {
     "the", "and", "for", "with", "you", "our", "your", "will", "are", "not",
-    "have", "has", "this", "that", "from", "was", "were", "但", "als", "und",
+    "have", "has", "this", "that", "from", "was", "were", "als", "und",
     "die", "der", "das", "mit", "von", "für", "ein", "eine", "work", "team",
     "role", "experience", "skills", "data", "including", "such", "using", "use",
     "new", "who", "all", "can", "help", "make", "more", "across", "within",
@@ -35,6 +35,11 @@ PALABRAS_IGNORADAS = {
     "technical", "technologies", "technology", "systems", "system", "tools",
     "tool", "environment", "ability", "quality", "high", "real", "time",
     "management", "manage", "support", "develop", "development", "design",
+    # Ruido detectado en tus 19 ofertas reales:
+    "in", "an", "of", "on", "to", "we", "is", "as", "or", "at", "if", "be",
+    "it", "us", "by", "do", "re", "ll", "teams", "impact", "practices",
+    "drive", "requirements", "deliver", "opportunity", "services",
+    "performance", "engineers", "platforms", "world", "culture", "key",
 }
 
 
@@ -70,7 +75,7 @@ def descubrir(ofertas: list[dict], top: int = 40) -> list[tuple[str, int]]:
         # set(...) elimina repetidos DENTRO de una misma oferta.
         terminos_unicos = {
             t for t in tokenizar(texto)
-            if t not in PALABRAS_IGNORADAS and not t.isdigit() and len(t) >= 2
+            if t not in PALABRAS_IGNORADAS and not t.isdigit() and len(t) >= 3
         }
         for termino in terminos_unicos:
             conteo[termino] += 1
