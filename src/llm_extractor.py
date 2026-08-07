@@ -86,7 +86,7 @@ def _extraer_local(texto: str) -> list[str]:
         "stream": False,      # queremos la respuesta completa de una, no en pedazos
         "format": "json",     # le pedimos a Ollama que devuelva JSON válido
     }
-    respuesta = requests.post(config.OLLAMA_URL, json=payload, timeout=120)
+    respuesta = requests.post(config.OLLAMA_URL, json=payload, timeout=config.OLLAMA_TIMEOUT)
     respuesta.raise_for_status()
     contenido = respuesta.json()["message"]["content"]
     return _parsear_skills(contenido)

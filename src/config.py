@@ -14,7 +14,7 @@ botón real en la interfaz de tu app.
 #              y tiene un costo por uso (bajísimo para este proyecto).
 #   "local"  → Ollama corriendo en tu compu. Gratis y privado, pero requiere
 #              instalar Ollama y descargar un modelo.
-LLM_PROVIDER = "cloud"
+LLM_PROVIDER = "local"
 
 # ============================================================
 #  Qué modelo usar en cada caso (podés cambiarlos)
@@ -28,3 +28,8 @@ MODELO_LOCAL = "llama3.1"
 
 # Dirección donde corre Ollama en tu compu (valor por defecto de Ollama).
 OLLAMA_URL = "http://localhost:11434/api/chat"
+
+# Cuántos segundos esperar la respuesta de Ollama antes de rendirse.
+# Los modelos locales en CPU pueden ser lentos, sobre todo la primera vez.
+# Si te da timeout, subí este número.
+OLLAMA_TIMEOUT = 300
