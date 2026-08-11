@@ -24,7 +24,7 @@ LLM_PROVIDER = "local"
 MODELO_CLOUD = "claude-haiku-4-5"
 
 # El modelo que tengas descargado en Ollama (ej: "llama3.1", "qwen2.5", "mistral").
-MODELO_LOCAL = "llama3.1"
+MODELO_LOCAL = "llama3.2"
 
 # Dirección donde corre Ollama en tu compu (valor por defecto de Ollama).
 OLLAMA_URL = "http://localhost:11434/api/chat"

@@ -1,0 +1,546 @@
+[
+  {
+    "source": "arbeitnow",
+    "title": "Senior Data Engineer (m/w/d)",
+    "company": "ANGEHEUERT GmbH",
+    "url": "https://www.arbeitnow.com/jobs/companies/angeheuert-gmbh/senior-data-engineer-berlin-129969",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "dbt",
+      "CI/CD",
+      "Azure",
+      "Data Pipelines",
+      "Machine Learning",
+      "Data Analytics",
+      "Data Architecture"
+    ],
+    "descubiertas_llm": [
+      "AWS",
+      "Docker",
+      "Hadoop",
+      "Apache Spark",
+      "SQL",
+      "Python",
+      "Machine Learning",
+      "Data Warehousing",
+      "Data Visualization"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Senior Data Engineer",
+    "company": "LiveScore Group ",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/livescore-group/senior-data-engineer-london-121041",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "Docker",
+      "Terraform",
+      "GCP",
+      "BigQuery",
+      "Data Pipelines",
+      "Data Warehousing",
+      "Data Analytics",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Hybrid working",
+      "Data engineering",
+      "Scalable systems",
+      "Real-time AI/ML workloads",
+      "Data architecture",
+      "Automation",
+      "Artificial intelligence",
+      "Data integrity",
+      "Data performance"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Data Engineer",
+    "company": "LiveScore Group ",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/livescore-group/data-engineer-london-313309",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "Docker",
+      "Terraform",
+      "GCP",
+      "BigQuery",
+      "Data Pipelines",
+      "Data Warehousing",
+      "Data Analytics",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Data Engineer",
+      "Real-time AI/ML workloads"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Data Engineer",
+    "company": "Atolls",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/atolls/data-engineer-london-350221",
+    "skills": [
+      "Python",
+      "SQL",
+      "MySQL",
+      "Airflow",
+      "dbt",
+      "Kafka",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "AWS",
+      "GCP",
+      "Data Pipelines",
+      "Data Analytics",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Data Engineer",
+      "cloud services",
+      "data platform",
+      "data products",
+      ".NET",
+      "C#",
+      "Azure",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Git",
+      "Microsoft SQL Server",
+      "Data Warehouse"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Data Engineer",
+    "company": "Atolls",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/atolls/data-engineer-london-346649",
+    "skills": [
+      "Python",
+      "SQL",
+      "MySQL",
+      "Airflow",
+      "dbt",
+      "Kafka",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "AWS",
+      "GCP",
+      "Data Pipelines",
+      "Data Analytics",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Data Engineer",
+      "cloud services",
+      "data platform",
+      "data products",
+      ".NET",
+      "C#",
+      "Azure",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Git",
+      "Microsoft SQL Server",
+      "Data Warehouse"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Data Engineering Manager (UK Remote)",
+    "company": "Ivcevidensia",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/ivcevidensia/data-engineering-manager-uk-remote-36619",
+    "skills": [
+      "SQL",
+      "Azure",
+      "Databricks",
+      "Data Warehousing"
+    ],
+    "descubiertas_llm": [
+      "SQL",
+      "data warehouse"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Software/Data Engineer",
+    "company": "Prima",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/prima/software-data-engineer-london-333304",
+    "skills": [
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "NoSQL",
+      "Airflow",
+      "Spark",
+      "Kafka",
+      "Flink",
+      "CI/CD",
+      "AWS",
+      "Databricks",
+      "Redshift",
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Warehousing",
+      "Machine Learning",
+      "Data Analytics",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Machine Learning",
+      "Data Analytics",
+      "Data Science",
+      "Python",
+      "Scalability",
+      "Cloud Computing",
+      "AWS",
+      "Data Pipelines",
+      "Pricing Models"
+    ]
+  },
+  {
+    "source": "arbeitnow",
+    "title": "Data Engineer",
+    "company": "Prima",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/prima/data-engineer-london-134322",
+    "skills": [
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "NoSQL",
+      "Airflow",
+      "Spark",
+      "Kafka",
+      "Flink",
+      "CI/CD",
+      "AWS",
+      "Databricks",
+      "Redshift",
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Warehousing",
+      "Machine Learning",
+      "Data Analytics",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Machine Learning",
+      "Data Analytics",
+      "Data Science",
+      "Python",
+      "SQL",
+      "Scikit-learn",
+      "TensorFlow",
+      "Hadoop",
+      "Spark",
+      "Apache Kafka",
+      "Cloud Computing",
+      ".NET Framework"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Senior Data Engineer",
+    "company": "Salesloft",
+    "url": "https://jobicy.com/jobs/142570-senior-data-engineer-9",
+    "skills": [
+      "SQL",
+      "Airflow",
+      "dbt",
+      "AWS",
+      "GCP",
+      "Snowflake",
+      "Databricks",
+      "Data Pipelines",
+      "Data Warehousing",
+      "Machine Learning",
+      "Data Analytics",
+      "Data Architecture"
+    ],
+    "descubiertas_llm": [
+      "Salesloft",
+      "Clari",
+      "Data Engineer",
+      "Data Pipelines",
+      "Artificial Intelligence",
+      "AI Features",
+      "Cloud Computing",
+      "Frameworks"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Senior Data Engineering Manager",
+    "company": "YipitData",
+    "url": "https://jobicy.com/jobs/149665-senior-data-engineering-manager",
+    "skills": [
+      "SQL",
+      "Airflow",
+      "Spark",
+      "Databricks",
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Analytics",
+      "Cloud",
+      "Data Architecture"
+    ],
+    "descubiertas_llm": [
+      "Propiedad",
+      "Tecnología de análisis de datos",
+      "Análisis de datos alternativos",
+      "Sectores de software",
+      "IA",
+      "Cloud",
+      "E-commerce",
+      "Ridesharing",
+      "Pagos"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Senior Data Engineer",
+    "company": "Plain Concepts",
+    "url": "https://jobicy.com/jobs/144144-senior-data-engineer",
+    "skills": [
+      "Python",
+      "SQL",
+      "NoSQL",
+      "dbt",
+      "Spark",
+      "CI/CD",
+      "AWS",
+      "Azure",
+      "Snowflake",
+      "Data Pipelines",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Spark",
+      "Python",
+      "Scala",
+      "Azure",
+      "AWS"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Senior AI Data Engineer",
+    "company": "Scorpion",
+    "url": "https://jobicy.com/jobs/145319-senior-ai-data-engineer",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "dbt",
+      "Spark",
+      "Azure",
+      "BigQuery",
+      "Snowflake",
+      "Databricks",
+      "Data Pipelines",
+      "Data Warehousing",
+      "Machine Learning",
+      "Data Analytics",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Python",
+      "Scikit-learn",
+      "TensorFlow",
+      "Keras",
+      "Django",
+      "AWS Lambda",
+      "Amazon S3",
+      "Apache Spark",
+      "Apache Beam",
+      "Hadoop",
+      "Google Cloud Platform",
+      "Google Analytics 4"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Senior Data Engineer",
+    "company": "Zartis",
+    "url": "https://jobicy.com/jobs/148223-senior-data-engineer-2",
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "CI/CD",
+      "Azure",
+      "Data Pipelines",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Power Platform",
+      "API architectures",
+      "cloud native engineering"
+    ]
+  },
+  {
+    "source": "jobicy",
+    "title": "Data Engineer, Engineering & Operations",
+    "company": "NBCUniversal",
+    "url": "https://jobicy.com/jobs/148199-data-engineer-engineering-operations",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "dbt",
+      "Spark",
+      "Snowflake",
+      "Databricks",
+      "Data Pipelines",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "MySQL",
+      "AWS",
+      "React",
+      "Angular",
+      "Vue.js",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Git"
+    ]
+  },
+  {
+    "source": "greenhouse",
+    "title": "Data Analyst, Financial Data Engineering",
+    "company": "stripe",
+    "url": "https://stripe.com/jobs/search?gh_jid=8070572",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "Spark",
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Analytics",
+      "Data Architecture"
+    ],
+    "descubiertas_llm": [
+      "Python",
+      "Data Science",
+      "Machine Learning",
+      "Stripe Payments API"
+    ]
+  },
+  {
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Data Engineering Solutions",
+    "company": "stripe",
+    "url": "https://stripe.com/jobs/search?gh_jid=7548037",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "Spark",
+      "Kafka",
+      "Flink",
+      "AWS",
+      "Data Pipelines",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Stripe",
+      "Python",
+      ".NET",
+      "C++",
+      "GraphQL",
+      "API",
+      "Cloud",
+      "AWS",
+      "Google Cloud",
+      "Microsoft Azure",
+      "Data Warehousing",
+      "Big Data",
+      "Machine Learning",
+      "Artificial Intelligence"
+    ]
+  },
+  {
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Data Engineering Solutions",
+    "company": "stripe",
+    "url": "https://stripe.com/jobs/search?gh_jid=8013220",
+    "skills": [
+      "SQL",
+      "Airflow",
+      "Spark",
+      "Kafka",
+      "Flink",
+      "AWS",
+      "Data Pipelines",
+      "Cloud"
+    ],
+    "descubiertas_llm": [
+      "Stripe",
+      "Python",
+      "DataOps",
+      "Incident handling",
+      "Data engineering",
+      "Backend code",
+      "AI tools",
+      "Platforms",
+      "Services"
+    ]
+  },
+  {
+    "source": "greenhouse",
+    "title": "Senior Staff Data Engineer - Data Stewardship",
+    "company": "airbnb",
+    "url": "https://careers.airbnb.com/positions/7998356?gh_jid=7998356",
+    "skills": [
+      "SQL",
+      "Spark",
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Analytics"
+    ],
+    "descubiertas_llm": [
+      "Airbnb",
+      "Data Stewardship",
+      "Analytics",
+      "Data Modeling",
+      "Governance",
+      "Compliance",
+      "Data Quality",
+      "Data Governance",
+      "Python"
+    ]
+  },
+  {
+    "source": "lever",
+    "title": "Staff Data Engineer — Subscriptions User Understanding",
+    "company": "spotify",
+    "url": "https://jobs.lever.co/spotify/ba9d817a-a4aa-4452-ab56-ddd7cbc10943",
+    "skills": [
+      "Machine Learning",
+      "Data Analytics"
+    ],
+    "descubiertas_llm": [
+      "machine learning",
+      "data platform",
+      "analytics",
+      "experimentation",
+      "product development"
+    ]
+  }
+]

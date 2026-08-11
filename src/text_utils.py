@@ -17,3 +17,15 @@ def limpiar_html(texto_html: str) -> str:
     texto = html.unescape(sin_etiquetas)
     # 3) Colapsamos espacios múltiples en uno solo y recortamos los bordes.
     return re.sub(r"\s+", " ", texto).strip()
+
+
+def recortar(texto: str, max_caracteres: int = 1500) -> str:
+    """Devuelve solo los primeros max_caracteres del texto.
+
+    Las skills suelen estar en la primera parte de la descripción; el relleno de
+    cultura y beneficios va al final. Recortar acelera al LLM (menos texto que leer)
+    y mejora la precisión (menos ruido). Heurística simple pero efectiva.
+    """
+    if len(texto) <= max_caracteres:
+        return texto
+    return texto[:max_caracteres]

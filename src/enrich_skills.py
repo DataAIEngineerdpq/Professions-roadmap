@@ -18,7 +18,8 @@ import glob
 import datetime
 from pathlib import Path
 
-from text_utils import limpiar_html
+import config
+from text_utils import limpiar_html, recortar
 # Reusamos el motor de diccionario que ya escribimos en el Paso 2a:
 from extract_skills import cargar_diccionario, compilar_patrones, extraer_skills
 from llm_extractor import extraer_skills_con_llm
@@ -69,13 +70,20 @@ def procesar() -> None:
         skills_dic = extraer_skills(texto, patrones)
 
         # --- 2) LLM con caché: descubrir ---
-        huella = skill_cache.huella_texto(texto)
+        # Al LLM le mandamos solo un fragmento (más rápido y más preciso).
+        # El diccionario, en cambio, ya leyó el texto completo arriba.
+        texto_para_llm = recortar(texto, max_caracteres=1500)
+        # La llave del caché incluye el modelo: si cambiás de modelo, se re-procesa
+        # (los resultados de un modelo no valen para otro).
+        modelo_activo = config.MODELO_LOCAL if config.LLM_PROVIDER == "local" else config.MODELO_CLOUD
+        clave_cache = f"{config.LLM_PROVIDER}:{modelo_activo}:{texto_para_llm}"
+        huella = skill_cache.huella_texto(clave_cache)
         if huella in cache:
             skills_llm = cache[huella]
             aciertos_cache += 1
         else:
             print(f"  [{i}/{len(ofertas)}] llamando al LLM...")
-            skills_llm = extraer_skills_con_llm(texto)
+            skills_llm = extraer_skills_con_llm(texto_para_llm)
             cache[huella] = skills_llm
             llamadas_llm += 1
             skill_cache.guardar_cache(cache)   # guardamos incremental, por si se corta
