@@ -1,1 +1,228 @@
-{}
+{
+  "Lenguajes": {
+    "Fundamento": [
+      "Python",
+      "Java",
+      "NumPy",
+      "C#",
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "C++"
+    ],
+    "Intermedio": [
+      "Postman",
+      "HTML",
+      "CSS",
+      "PHP",
+      "Vue.js"
+    ],
+    "Avanzado": [
+      "Scala",
+      "REST APIs",
+      "DBT",
+      ".NET",
+      "React",
+      "Angular",
+      "GraphQL"
+    ]
+  },
+  "Bases de Datos": {
+    "Fundamento": [
+      "SQL",
+      "Firestore",
+      "Hive Metastore",
+      "MongoDB"
+    ],
+    "Intermedio": [
+      "MySQL",
+      "Snowflake",
+      "ClickHouse",
+      "Trino",
+      "Pinot"
+    ],
+    "Avanzado": [
+      "PostgreSQL",
+      "NoSQL",
+      "BigQuery",
+      "Redshift",
+      "Bigtable",
+      "Spanner",
+      "Databricks Lakehouse",
+      "Fivetran",
+      "Delta Lake",
+      "Microsoft SQL Server"
+    ]
+  },
+  "Orquestación": {
+    "Fundamento": [],
+    "Intermedio": [
+      "Airflow",
+      "Prefect"
+    ],
+    "Avanzado": [
+      "Kubernetes",
+      "Microsoft Fabric"
+    ]
+  },
+  "Arquitectura y Gobernanza de Datos": {
+    "Fundamento": [
+      "Data Modeling",
+      "Data Quality"
+    ],
+    "Intermedio": [
+      "dbt",
+      "Data Science"
+    ],
+    "Avanzado": [
+      "Data Architecture",
+      "Data Governance"
+    ]
+  },
+  "Procesamiento Distribuido": {
+    "Fundamento": [
+      "Databricks"
+    ],
+    "Intermedio": [
+      "Dataflow",
+      "Hadoop"
+    ],
+    "Avanzado": [
+      "Spark",
+      "Apache Beam"
+    ]
+  },
+  "Streaming": {
+    "Fundamento": [
+      "Pub/Sub"
+    ],
+    "Intermedio": [
+      "Flink",
+      "Cursor"
+    ],
+    "Avanzado": [
+      "Kafka"
+    ]
+  },
+  "DevOps/Infraestructura": {
+    "Fundamento": [
+      "Docker",
+      "Terraform",
+      "Azure DevOps",
+      "ETL/ELT-Prozesse",
+      "IaC deployment",
+      "Git",
+      "Jira",
+      "IaC",
+      "Power Automate"
+    ],
+    "Intermedio": [
+      "CI/CD",
+      "Data Pipelines",
+      "Automatisierung",
+      "infrastructure as Code (IaC)",
+      "Azure Data Factory",
+      "Django",
+      "DataOps"
+    ],
+    "Avanzado": []
+  },
+  "Cloud": {
+    "Fundamento": [
+      "Azure",
+      "Cloud",
+      "Cloud Storage",
+      "Azure Databricks",
+      "S3",
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "Intermedio": [
+      "Openbridge",
+      "Estuary",
+      "Azure Synapse"
+    ],
+    "Avanzado": [
+      "AWS",
+      "GCP",
+      "AWS Cloud"
+    ]
+  },
+  "BI/Analytics": {
+    "Fundamento": [
+      "Power Apps",
+      "Power Platform"
+    ],
+    "Intermedio": [
+      "Power BI",
+      "Claude Code"
+    ],
+    "Avanzado": [
+      "Data Warehousing",
+      "Data Analytics",
+      "Gemini Enterprise",
+      "Data Visualization"
+    ]
+  },
+  "Machine Learning/IA": {
+    "Fundamento": [
+      "Codex"
+    ],
+    "Intermedio": [
+      "Machine Learning",
+      "GitHub Copilot",
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "Avanzado": [
+      "XGBoost",
+      "LightGBM",
+      "Cortex",
+      "Keras"
+    ]
+  },
+  "Otras": {
+    "Fundamento": [],
+    "Intermedio": [
+      "Iceberg",
+      "Airbnb"
+    ],
+    "Avanzado": []
+  },
+  "Sin Clasificar": {
+    "Fundamento": [],
+    "Intermedio": [
+      "Cloud Composer",
+      "Vertex AI",
+      "DevOps",
+      "CI/CD pipeline management",
+      "Apache Oozie",
+      "scikit-learn",
+      "pandas",
+      "Datenmodellierung",
+      "Bronze-, Silver- und Gold-Layer-Architekturen",
+      "Datenqualitätsmanagement",
+      "Monitoring",
+      "Logging",
+      "Performance-Optimierung",
+      "GitHub Actions",
+      "DBT (Data Build Tool)",
+      "IaC (Infrastructure as Code)",
+      "Dataverse",
+      "Great Expectations",
+      "Snowpark",
+      "Flyte",
+      "LLM agents",
+      "Change Data Capture",
+      "Go",
+      "Hybrid working",
+      ".NET Framework",
+      "Salesloft",
+      "Frameworks",
+      "Propiedad",
+      "Sectores de software",
+      "Pagos"
+    ],
+    "Avanzado": []
+  }
+}
