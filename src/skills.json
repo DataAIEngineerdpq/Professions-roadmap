@@ -1,30 +1,422 @@
 {
-  "Python": ["python"],
-  "SQL": ["sql"],
-  "PostgreSQL": ["postgresql", "postgres", "psql"],
-  "MySQL": ["mysql"],
-  "NoSQL": ["nosql"],
-  "Airflow": ["airflow", "apache airflow"],
-  "dbt": ["dbt"],
-  "Spark": ["spark", "apache spark", "pyspark"],
-  "Kafka": ["kafka", "apache kafka"],
-  "Flink": ["flink", "apache flink"],
-  "Docker": ["docker"],
-  "Kubernetes": ["kubernetes", "k8s"],
-  "Terraform": ["terraform"],
-  "CI/CD": ["ci/cd", "cicd"],
-  "AWS": ["aws", "amazon web services"],
-  "GCP": ["gcp", "google cloud", "google cloud platform"],
-  "Azure": ["azure", "microsoft azure"],
-  "BigQuery": ["bigquery"],
-  "Snowflake": ["snowflake"],
-  "Databricks": ["databricks"],
-  "Redshift": ["redshift"],
-  "Data Pipelines": ["pipelines", "data pipeline", "etl", "elt"],
-  "Data Modeling": ["data modeling", "data modelling"],
-  "Data Warehousing": ["data warehouse", "data warehousing"],
-  "Machine Learning": ["machine learning"],
-  "Data Analytics": ["analytics"],
-  "Cloud": ["cloud"],
-  "Data Architecture": ["data architecture"]
+  "Python": [
+    "python"
+  ],
+  "SQL": [
+    "sql"
+  ],
+  "PostgreSQL": [
+    "postgresql",
+    "postgres",
+    "psql"
+  ],
+  "MySQL": [
+    "mysql"
+  ],
+  "NoSQL": [
+    "nosql"
+  ],
+  "Airflow": [
+    "airflow",
+    "apache airflow"
+  ],
+  "dbt": [
+    "dbt"
+  ],
+  "Spark": [
+    "spark",
+    "apache spark",
+    "pyspark"
+  ],
+  "Kafka": [
+    "kafka",
+    "apache kafka"
+  ],
+  "Flink": [
+    "flink",
+    "apache flink"
+  ],
+  "Docker": [
+    "docker"
+  ],
+  "Kubernetes": [
+    "kubernetes",
+    "k8s"
+  ],
+  "Terraform": [
+    "terraform"
+  ],
+  "CI/CD": [
+    "ci/cd",
+    "cicd"
+  ],
+  "AWS": [
+    "aws",
+    "amazon web services"
+  ],
+  "GCP": [
+    "gcp",
+    "google cloud",
+    "google cloud platform"
+  ],
+  "Azure": [
+    "azure",
+    "microsoft azure"
+  ],
+  "BigQuery": [
+    "bigquery"
+  ],
+  "Snowflake": [
+    "snowflake"
+  ],
+  "Databricks": [
+    "databricks"
+  ],
+  "Redshift": [
+    "redshift"
+  ],
+  "Data Pipelines": [
+    "pipelines",
+    "data pipeline",
+    "etl",
+    "elt"
+  ],
+  "Data Modeling": [
+    "data modeling",
+    "data modelling"
+  ],
+  "Data Warehousing": [
+    "data warehouse",
+    "data warehousing"
+  ],
+  "Machine Learning": [
+    "machine learning"
+  ],
+  "Data Analytics": [
+    "analytics"
+  ],
+  "Cloud": [
+    "cloud"
+  ],
+  "Data Architecture": [
+    "data architecture"
+  ],
+  "Scala": [
+    "scala"
+  ],
+  "ClickHouse": [
+    "clickhouse"
+  ],
+  "Java": [
+    "java"
+  ],
+  "Iceberg": [
+    "iceberg"
+  ],
+  "Microsoft Fabric": [
+    "microsoft fabric"
+  ],
+  "Power BI": [
+    "power bi"
+  ],
+  "Azure DevOps": [
+    "azure devops"
+  ],
+  "Dataflow": [
+    "dataflow"
+  ],
+  "Pub/Sub": [
+    "pub/sub"
+  ],
+  "Cloud Storage": [
+    "cloud storage"
+  ],
+  "Bigtable": [
+    "bigtable"
+  ],
+  "Spanner": [
+    "spanner"
+  ],
+  "Firestore": [
+    "firestore"
+  ],
+  "Cloud Composer": [
+    "cloud composer"
+  ],
+  "Vertex AI": [
+    "vertex ai"
+  ],
+  "DevOps": [
+    "devops"
+  ],
+  "CI/CD pipeline management": [
+    "ci/cd pipeline management"
+  ],
+  "Apache Oozie": [
+    "apache oozie"
+  ],
+  "scikit-learn": [
+    "scikit-learn"
+  ],
+  "pandas": [
+    "pandas"
+  ],
+  "NumPy": [
+    "numpy"
+  ],
+  "XGBoost": [
+    "xgboost"
+  ],
+  "LightGBM": [
+    "lightgbm"
+  ],
+  "Trino": [
+    "trino"
+  ],
+  "Pinot": [
+    "pinot"
+  ],
+  "Hive Metastore": [
+    "hive metastore"
+  ],
+  "AWS Cloud": [
+    "aws cloud"
+  ],
+  "ETL/ELT-Prozesse": [
+    "etl/elt-prozesse"
+  ],
+  "Automatisierung": [
+    "automatisierung"
+  ],
+  "Datenmodellierung": [
+    "datenmodellierung"
+  ],
+  "Bronze-, Silver- und Gold-Layer-Architekturen": [
+    "bronze-, silver- und gold-layer-architekturen"
+  ],
+  "Datenqualitätsmanagement": [
+    "datenqualitätsmanagement"
+  ],
+  "Monitoring": [
+    "monitoring"
+  ],
+  "Logging": [
+    "logging"
+  ],
+  "Performance-Optimierung": [
+    "performance-optimierung"
+  ],
+  "GitHub Actions": [
+    "github actions"
+  ],
+  "Openbridge": [
+    "openbridge"
+  ],
+  "Databricks Lakehouse": [
+    "databricks lakehouse"
+  ],
+  "Azure Databricks": [
+    "azure databricks"
+  ],
+  "infrastructure as Code (IaC)": [
+    "infrastructure as code (iac)"
+  ],
+  "IaC deployment": [
+    "iac deployment"
+  ],
+  "Fivetran": [
+    "fivetran"
+  ],
+  "Estuary": [
+    "estuary"
+  ],
+  "Cortex": [
+    "cortex"
+  ],
+  "Gemini Enterprise": [
+    "gemini enterprise"
+  ],
+  "GitHub Copilot": [
+    "github copilot"
+  ],
+  "Git": [
+    "git"
+  ],
+  "Jira": [
+    "jira"
+  ],
+  "REST APIs": [
+    "rest apis"
+  ],
+  "Postman": [
+    "postman"
+  ],
+  "Claude Code": [
+    "claude code"
+  ],
+  "Codex": [
+    "codex"
+  ],
+  "Cursor": [
+    "cursor"
+  ],
+  "DBT (Data Build Tool)": [
+    "dbt (data build tool)"
+  ],
+  "IaC (Infrastructure as Code)": [
+    "iac (infrastructure as code)"
+  ],
+  "Delta Lake": [
+    "delta lake"
+  ],
+  "Azure Synapse": [
+    "azure synapse"
+  ],
+  "Prefect": [
+    "prefect"
+  ],
+  "Azure Data Factory": [
+    "azure data factory"
+  ],
+  "Power Apps": [
+    "power apps"
+  ],
+  "Power Automate": [
+    "power automate"
+  ],
+  "Dataverse": [
+    "dataverse"
+  ],
+  "Great Expectations": [
+    "great expectations"
+  ],
+  "Snowpark": [
+    "snowpark"
+  ],
+  "Flyte": [
+    "flyte"
+  ],
+  "LLM agents": [
+    "llm agents"
+  ],
+  "Change Data Capture": [
+    "change data capture"
+  ],
+  "Go": [
+    "go"
+  ],
+  "S3": [
+    "s3"
+  ],
+  "Hadoop": [
+    "hadoop"
+  ],
+  ".NET": [
+    ".net"
+  ],
+  "Data Science": [
+    "data science"
+  ],
+  "C#": [
+    "c#"
+  ],
+  "Microsoft SQL Server": [
+    "microsoft sql server"
+  ],
+  "Scikit-learn": [
+    "scikit-learn"
+  ],
+  "TensorFlow": [
+    "tensorflow"
+  ],
+  "Data Visualization": [
+    "data visualization"
+  ],
+  "Hybrid working": [
+    "hybrid working"
+  ],
+  ".NET Framework": [
+    ".net framework"
+  ],
+  "Salesloft": [
+    "salesloft"
+  ],
+  "Frameworks": [
+    "frameworks"
+  ],
+  "Propiedad": [
+    "propiedad"
+  ],
+  "Sectores de software": [
+    "sectores de software"
+  ],
+  "Pagos": [
+    "pagos"
+  ],
+  "Keras": [
+    "keras"
+  ],
+  "Django": [
+    "django"
+  ],
+  "AWS Lambda": [
+    "aws lambda"
+  ],
+  "Amazon S3": [
+    "amazon s3"
+  ],
+  "Apache Beam": [
+    "apache beam"
+  ],
+  "Power Platform": [
+    "power platform"
+  ],
+  "HTML": [
+    "html"
+  ],
+  "CSS": [
+    "css"
+  ],
+  "JavaScript": [
+    "javascript"
+  ],
+  "PHP": [
+    "php"
+  ],
+  "React": [
+    "react"
+  ],
+  "Angular": [
+    "angular"
+  ],
+  "Vue.js": [
+    "vue.js"
+  ],
+  "Node.js": [
+    "node.js"
+  ],
+  "Express": [
+    "express"
+  ],
+  "MongoDB": [
+    "mongodb"
+  ],
+  "C++": [
+    "c++"
+  ],
+  "GraphQL": [
+    "graphql"
+  ],
+  "DataOps": [
+    "dataops"
+  ],
+  "Airbnb": [
+    "airbnb"
+  ],
+  "Data Quality": [
+    "data quality"
+  ],
+  "Data Governance": [
+    "data governance"
+  ]
 }
