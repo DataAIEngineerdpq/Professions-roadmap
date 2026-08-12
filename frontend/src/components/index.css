@@ -222,26 +222,18 @@ body::before {
    DEMANDA EN CADA SKILL
    =========================================================== */
 .skill {
-  display: inline-flex; align-items: center;
-  gap: 0.55rem;
-  padding: 0.32rem 0.5rem 0.32rem 0.7rem;
+  display: inline-flex; align-items: center; gap: 0.45rem;
   transition: opacity 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
 }
 .skill:hover { opacity: 1 !important; }
 
 .skill-demand {
-  font-size: 0.7rem;
-  font-weight: 600;
+  font-size: 0.7rem; font-weight: 600;
   color: var(--muted);
-  background: rgba(0, 0, 0, 0.28);
-  padding: 0.1rem 0.4rem;
-  border-radius: 3px;
-  line-height: 1.4;
+  padding-left: 0.45rem;
+  border-left: 1px solid var(--line);
 }
-.skill.match .skill-demand {
-  color: var(--bg);
-  background: rgba(0, 0, 0, 0.18);
-}
+.skill.match .skill-demand { color: var(--bg); border-left-color: rgba(0,0,0,0.25); }
 
 .legend-note { margin-left: auto; font-style: italic; opacity: 0.75; }
 

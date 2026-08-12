@@ -1,0 +1,729 @@
+{
+  "Data Engineer": {
+    "total_ofertas": 18,
+    "categorias": {
+      "BI/Analytics": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Data Analytics",
+            "demanda": 12
+          },
+          {
+            "nombre": "Data Visualization",
+            "demanda": 1
+          },
+          {
+            "nombre": "Power Platform",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": []
+      },
+      "Lenguajes": {
+        "Fundamento": [
+          {
+            "nombre": "SQL",
+            "demanda": 17
+          },
+          {
+            "nombre": "Python",
+            "demanda": 14
+          },
+          {
+            "nombre": "Frameworks",
+            "demanda": 1
+          },
+          {
+            "nombre": "HTML",
+            "demanda": 1
+          },
+          {
+            "nombre": "CSS",
+            "demanda": 1
+          }
+        ],
+        "Intermedio": [
+          {
+            "nombre": "Scala",
+            "demanda": 4
+          },
+          {
+            "nombre": ".NET",
+            "demanda": 3
+          },
+          {
+            "nombre": "C#",
+            "demanda": 2
+          },
+          {
+            "nombre": ".NET Framework",
+            "demanda": 1
+          },
+          {
+            "nombre": "Angular",
+            "demanda": 1
+          },
+          {
+            "nombre": "React",
+            "demanda": 1
+          },
+          {
+            "nombre": "JavaScript",
+            "demanda": 1
+          },
+          {
+            "nombre": "Vue.js",
+            "demanda": 1
+          },
+          {
+            "nombre": "PHP",
+            "demanda": 1
+          },
+          {
+            "nombre": "Node.js",
+            "demanda": 1
+          },
+          {
+            "nombre": "Express",
+            "demanda": 1
+          },
+          {
+            "nombre": "GraphQL",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": [
+          {
+            "nombre": "C++",
+            "demanda": 1
+          }
+        ]
+      },
+      "Cloud": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Cloud",
+            "demanda": 12
+          },
+          {
+            "nombre": "AWS",
+            "demanda": 10
+          },
+          {
+            "nombre": "Azure",
+            "demanda": 6
+          },
+          {
+            "nombre": "GCP",
+            "demanda": 5
+          },
+          {
+            "nombre": "BigQuery",
+            "demanda": 2
+          },
+          {
+            "nombre": "Redshift",
+            "demanda": 2
+          }
+        ],
+        "Avanzado": [
+          {
+            "nombre": "Databricks",
+            "demanda": 6
+          }
+        ]
+      },
+      "Otras": {
+        "Fundamento": [
+          {
+            "nombre": "Hybrid working",
+            "demanda": 1
+          },
+          {
+            "nombre": "Salesloft",
+            "demanda": 1
+          },
+          {
+            "nombre": "Propiedad",
+            "demanda": 1
+          },
+          {
+            "nombre": "Sectores de software",
+            "demanda": 1
+          },
+          {
+            "nombre": "Pagos",
+            "demanda": 1
+          },
+          {
+            "nombre": "Airbnb",
+            "demanda": 1
+          }
+        ],
+        "Intermedio": [
+          {
+            "nombre": "Services",
+            "demanda": 12
+          },
+          {
+            "nombre": "Data Engineer",
+            "demanda": 12
+          },
+          {
+            "nombre": "Platforms",
+            "demanda": 12
+          },
+          {
+            "nombre": "data products",
+            "demanda": 12
+          },
+          {
+            "nombre": "Data engineering",
+            "demanda": 11
+          },
+          {
+            "nombre": "data platform",
+            "demanda": 8
+          },
+          {
+            "nombre": "Governance",
+            "demanda": 6
+          },
+          {
+            "nombre": "Scalability",
+            "demanda": 5
+          },
+          {
+            "nombre": "Artificial Intelligence",
+            "demanda": 4
+          },
+          {
+            "nombre": "Automation",
+            "demanda": 4
+          },
+          {
+            "nombre": "Big Data",
+            "demanda": 4
+          },
+          {
+            "nombre": "API",
+            "demanda": 3
+          },
+          {
+            "nombre": "experimentation",
+            "demanda": 3
+          },
+          {
+            "nombre": "Cloud Computing",
+            "demanda": 3
+          },
+          {
+            "nombre": "AI tools",
+            "demanda": 3
+          },
+          {
+            "nombre": "Stripe",
+            "demanda": 3
+          },
+          {
+            "nombre": "E-commerce",
+            "demanda": 2
+          },
+          {
+            "nombre": "Data integrity",
+            "demanda": 2
+          },
+          {
+            "nombre": "Scalable systems",
+            "demanda": 2
+          },
+          {
+            "nombre": "Real-time AI/ML workloads",
+            "demanda": 2
+          },
+          {
+            "nombre": "cloud services",
+            "demanda": 2
+          },
+          {
+            "nombre": "Data Warehouse",
+            "demanda": 2
+          },
+          {
+            "nombre": "Incident handling",
+            "demanda": 2
+          },
+          {
+            "nombre": "Backend code",
+            "demanda": 2
+          },
+          {
+            "nombre": "Apache Spark",
+            "demanda": 1
+          },
+          {
+            "nombre": "Data performance",
+            "demanda": 1
+          },
+          {
+            "nombre": "Artificial intelligence",
+            "demanda": 1
+          },
+          {
+            "nombre": "data warehouse",
+            "demanda": 1
+          },
+          {
+            "nombre": "Pricing Models",
+            "demanda": 1
+          },
+          {
+            "nombre": "Apache Kafka",
+            "demanda": 1
+          },
+          {
+            "nombre": "AI Features",
+            "demanda": 1
+          },
+          {
+            "nombre": "Clari",
+            "demanda": 1
+          },
+          {
+            "nombre": "Ridesharing",
+            "demanda": 1
+          },
+          {
+            "nombre": "Análisis de datos alternativos",
+            "demanda": 1
+          },
+          {
+            "nombre": "Tecnología de análisis de datos",
+            "demanda": 1
+          },
+          {
+            "nombre": "IA",
+            "demanda": 1
+          },
+          {
+            "nombre": "cloud native engineering",
+            "demanda": 1
+          },
+          {
+            "nombre": "API architectures",
+            "demanda": 1
+          },
+          {
+            "nombre": "Stripe Payments API",
+            "demanda": 1
+          },
+          {
+            "nombre": "Google Cloud",
+            "demanda": 1
+          },
+          {
+            "nombre": "Microsoft Azure",
+            "demanda": 1
+          },
+          {
+            "nombre": "Compliance",
+            "demanda": 1
+          },
+          {
+            "nombre": "Analytics",
+            "demanda": 1
+          },
+          {
+            "nombre": "Data Stewardship",
+            "demanda": 1
+          },
+          {
+            "nombre": "analytics",
+            "demanda": 1
+          },
+          {
+            "nombre": "product development",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": []
+      },
+      "Arquitectura y Gobernanza de Datos": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Data Quality",
+            "demanda": 11
+          }
+        ],
+        "Avanzado": [
+          {
+            "nombre": "Data Pipelines",
+            "demanda": 16
+          },
+          {
+            "nombre": "Data Warehousing",
+            "demanda": 8
+          },
+          {
+            "nombre": "Data Modeling",
+            "demanda": 5
+          },
+          {
+            "nombre": "Data Architecture",
+            "demanda": 4
+          },
+          {
+            "nombre": "Data Governance",
+            "demanda": 3
+          },
+          {
+            "nombre": "Data architecture",
+            "demanda": 1
+          }
+        ]
+      },
+      "Orquestación": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Airflow",
+            "demanda": 13
+          },
+          {
+            "nombre": "dbt",
+            "demanda": 6
+          }
+        ],
+        "Avanzado": []
+      },
+      "DevOps/Infraestructura": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "CI/CD",
+            "demanda": 7
+          },
+          {
+            "nombre": "Docker",
+            "demanda": 5
+          },
+          {
+            "nombre": "Terraform",
+            "demanda": 4
+          },
+          {
+            "nombre": "Git",
+            "demanda": 4
+          }
+        ],
+        "Avanzado": [
+          {
+            "nombre": "Kubernetes",
+            "demanda": 2
+          },
+          {
+            "nombre": "DataOps",
+            "demanda": 1
+          }
+        ]
+      },
+      "Machine Learning/IA": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Machine Learning",
+            "demanda": 7
+          },
+          {
+            "nombre": "Scikit-learn",
+            "demanda": 2
+          },
+          {
+            "nombre": "machine learning",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": [
+          {
+            "nombre": "Data Science",
+            "demanda": 4
+          },
+          {
+            "nombre": "TensorFlow",
+            "demanda": 1
+          }
+        ]
+      },
+      "Procesamiento Distribuido": {
+        "Fundamento": [],
+        "Intermedio": [],
+        "Avanzado": [
+          {
+            "nombre": "Spark",
+            "demanda": 10
+          },
+          {
+            "nombre": "Hadoop",
+            "demanda": 3
+          }
+        ]
+      },
+      "Streaming": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Kafka",
+            "demanda": 6
+          }
+        ],
+        "Avanzado": [
+          {
+            "nombre": "Flink",
+            "demanda": 4
+          }
+        ]
+      },
+      "Bases de Datos": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "MySQL",
+            "demanda": 3
+          },
+          {
+            "nombre": "NoSQL",
+            "demanda": 3
+          },
+          {
+            "nombre": "Microsoft SQL Server",
+            "demanda": 2
+          },
+          {
+            "nombre": "PostgreSQL",
+            "demanda": 2
+          },
+          {
+            "nombre": "MongoDB",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": [
+          {
+            "nombre": "Snowflake",
+            "demanda": 3
+          }
+        ]
+      }
+    }
+  },
+  "Data Science / ML": {
+    "total_ofertas": 1,
+    "categorias": {
+      "BI/Analytics": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Data Analytics",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": []
+      },
+      "Otras": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Platforms",
+            "demanda": 1
+          },
+          {
+            "nombre": "Data engineering",
+            "demanda": 1
+          },
+          {
+            "nombre": "Services",
+            "demanda": 1
+          },
+          {
+            "nombre": "Governance",
+            "demanda": 1
+          },
+          {
+            "nombre": "Automation",
+            "demanda": 1
+          },
+          {
+            "nombre": "Scalability",
+            "demanda": 1
+          },
+          {
+            "nombre": "Google Cloud Platform",
+            "demanda": 1
+          },
+          {
+            "nombre": "Data Engineer",
+            "demanda": 1
+          },
+          {
+            "nombre": "data platform",
+            "demanda": 1
+          },
+          {
+            "nombre": "Apache Spark",
+            "demanda": 1
+          },
+          {
+            "nombre": "Google Analytics 4",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": []
+      },
+      "Lenguajes": {
+        "Fundamento": [
+          {
+            "nombre": "Python",
+            "demanda": 1
+          },
+          {
+            "nombre": "SQL",
+            "demanda": 1
+          }
+        ],
+        "Intermedio": [
+          {
+            "nombre": "Django",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": []
+      },
+      "Cloud": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Azure",
+            "demanda": 1
+          },
+          {
+            "nombre": "BigQuery",
+            "demanda": 1
+          },
+          {
+            "nombre": "Cloud",
+            "demanda": 1
+          },
+          {
+            "nombre": "Amazon S3",
+            "demanda": 1
+          },
+          {
+            "nombre": "AWS Lambda",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": [
+          {
+            "nombre": "Databricks",
+            "demanda": 1
+          }
+        ]
+      },
+      "Arquitectura y Gobernanza de Datos": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Data Quality",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": [
+          {
+            "nombre": "Data Warehousing",
+            "demanda": 1
+          },
+          {
+            "nombre": "Data Pipelines",
+            "demanda": 1
+          },
+          {
+            "nombre": "Data Governance",
+            "demanda": 1
+          }
+        ]
+      },
+      "Procesamiento Distribuido": {
+        "Fundamento": [],
+        "Intermedio": [],
+        "Avanzado": [
+          {
+            "nombre": "Apache Beam",
+            "demanda": 1
+          },
+          {
+            "nombre": "Spark",
+            "demanda": 1
+          },
+          {
+            "nombre": "Hadoop",
+            "demanda": 1
+          }
+        ]
+      },
+      "Bases de Datos": {
+        "Fundamento": [],
+        "Intermedio": [],
+        "Avanzado": [
+          {
+            "nombre": "Snowflake",
+            "demanda": 1
+          }
+        ]
+      },
+      "Orquestación": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "dbt",
+            "demanda": 1
+          },
+          {
+            "nombre": "Airflow",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": []
+      },
+      "Machine Learning/IA": {
+        "Fundamento": [],
+        "Intermedio": [
+          {
+            "nombre": "Scikit-learn",
+            "demanda": 1
+          },
+          {
+            "nombre": "Machine Learning",
+            "demanda": 1
+          },
+          {
+            "nombre": "Keras",
+            "demanda": 1
+          }
+        ],
+        "Avanzado": [
+          {
+            "nombre": "Data Science",
+            "demanda": 1
+          },
+          {
+            "nombre": "TensorFlow",
+            "demanda": 1
+          }
+        ]
+      }
+    }
+  }
+}
