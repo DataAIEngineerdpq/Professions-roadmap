@@ -18,7 +18,11 @@ import re
 import json
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 import config
+
+load_dotenv()   # necesario para leer ANTHROPIC_API_KEY del archivo .env
 
 RUTA_DICCIONARIO = Path(__file__).resolve().parent / "skills.json"
 

@@ -22,7 +22,14 @@ import re
 import json
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 import config
+
+# Lee el archivo .env y carga sus valores como variables de entorno.
+# SIN esta línea, os.environ.get("ANTHROPIC_API_KEY") devuelve None aunque el
+# archivo .env exista y tenga la clave: Python no lo lee automáticamente.
+load_dotenv()
 
 RUTA_DICCIONARIO = Path(__file__).resolve().parent / "skills.json"
 RUTA_SALIDA = Path(__file__).resolve().parent.parent / "data" / "processed" / "roadmap_tree.json"
@@ -45,7 +52,7 @@ CATEGORIAS = [
     "Otras",
 ]
 
-TAMANO_LOTE = 8  # lotes chicos: si uno falla, se pierde menos y es más fácil de acertar
+TAMANO_LOTE = 25  # cloud sigue instrucciones con fiabilidad, así que lotes más grandes
 
 INSTRUCCION = (
     "Sos un arquitecto de curricula de Data Engineering. Para cada skill de la "
@@ -70,9 +77,15 @@ def en_lotes(lista: list, tamano: int):
         yield lista[i:i + tamano]
 
 
+def proveedor_activo() -> str:
+    """Qué proveedor usa ESTA etapa. Si config no define uno específico para
+    categorización, cae al toggle global."""
+    return getattr(config, "PROVEEDOR_CATEGORIZACION", None) or config.LLM_PROVIDER
+
+
 def llamar_llm(texto_entrada: str) -> str:
-    """Hace UNA llamada al proveedor activo y devuelve el texto de respuesta."""
-    if config.LLM_PROVIDER == "cloud":
+    """Hace UNA llamada al proveedor de esta etapa y devuelve el texto de respuesta."""
+    if proveedor_activo() == "cloud":
         from anthropic import Anthropic
         import os
         api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -129,7 +142,41 @@ def clasificar_lote(skills_lote: list[str]) -> dict:
     if not resultado:
         print(f"    ⚠️  El modelo devolvió un JSON vacío para este lote.")
 
-    return resultado
+    return desenvolver(resultado, skills_lote)
+
+
+def desenvolver(datos: dict, skills_lote: list[str]) -> dict:
+    """Normaliza la respuesta del LLM a la forma {skill: {categoria, nivel}}.
+
+    Los modelos no siempre respetan el formato pedido. Las variantes típicas son:
+      a) {"skills": {"React": {...}}}         -> anidado bajo una clave contenedora
+      b) {"React": "Lenguajes"}               -> valor plano en vez de objeto
+      c) {"react": {...}}                     -> nombre con distinta capitalización
+    Sin esto, cualquiera de esas variantes hace que perdamos el lote entero
+    aunque el modelo haya respondido correctamente en contenido.
+    """
+    if not isinstance(datos, dict):
+        return {}
+
+    # (a) Si viene todo anidado bajo una sola clave contenedora, la abrimos.
+    if len(datos) == 1:
+        unica_clave = next(iter(datos))
+        valor = datos[unica_clave]
+        if isinstance(valor, dict) and unica_clave not in skills_lote:
+            datos = valor
+
+    # Índice para recuperar el nombre original sin importar mayúsculas.
+    por_minuscula = {s.lower(): s for s in skills_lote}
+
+    salida: dict = {}
+    for clave, valor in datos.items():
+        nombre = por_minuscula.get(str(clave).lower(), clave)  # (c)
+        if isinstance(valor, dict):
+            salida[nombre] = valor
+        elif isinstance(valor, str):
+            # (b) vino solo la categoría como texto plano
+            salida[nombre] = {"categoria": valor, "nivel": "Intermedio"}
+    return salida
 
 
 def construir_arbol(clasificacion_plana: dict) -> dict:
@@ -169,6 +216,7 @@ def reincorporar_omitidas(arbol: dict, skills_originales: list[str]) -> tuple[di
 def main() -> None:
     skills = cargar_skills()
     lotes = list(en_lotes(skills, TAMANO_LOTE))
+    print(f"Proveedor para categorización: {proveedor_activo()}")
     print(f"Clasificando {len(skills)} skills en {len(lotes)} lotes de hasta {TAMANO_LOTE}...\n")
 
     clasificacion_plana: dict = {}

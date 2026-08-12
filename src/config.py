@@ -17,6 +17,23 @@ botón real en la interfaz de tu app.
 LLM_PROVIDER = "local"
 
 # ============================================================
+#  PROVEEDOR POR ETAPA (opcional, pisa el toggle de arriba)
+# ============================================================
+# Cada tarea tiene necesidades distintas, y un buen sistema usa la herramienta
+# correcta para cada una:
+#
+#   extraccion   → recorre CADA oferta (muchas llamadas). Local conviene:
+#                  es gratis y la lentitud se amortiza con el caché.
+#   categorizacion → UNA sola llamada sobre toda la lista de skills, pero exige
+#                  seguir instrucciones con precisión (elegir de una lista
+#                  cerrada). Los modelos locales chicos fallan acá. Cloud es
+#                  ideal: una llamada, centavos, resultado fiable.
+#
+# Poné None para que use LLM_PROVIDER.
+PROVEEDOR_EXTRACCION = None      # None = usa LLM_PROVIDER (local)
+PROVEEDOR_CATEGORIZACION = "cloud"
+
+# ============================================================
 #  Qué modelo usar en cada caso (podés cambiarlos)
 # ============================================================
 # Haiku 4.5 es el modelo pequeño, rápido y económico de Anthropic, ideal para
@@ -24,7 +41,7 @@ LLM_PROVIDER = "local"
 MODELO_CLOUD = "claude-haiku-4-5"
 
 # El modelo que tengas descargado en Ollama (ej: "llama3.1", "qwen2.5", "mistral").
-MODELO_LOCAL = "llama3.2"
+MODELO_LOCAL = "llama3.1"
 
 # Dirección donde corre Ollama en tu compu (valor por defecto de Ollama).
 OLLAMA_URL = "http://localhost:11434/api/chat"

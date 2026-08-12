@@ -2,227 +2,215 @@
   "Lenguajes": {
     "Fundamento": [
       "Python",
-      "Java",
+      "SQL",
       "NumPy",
-      "C#",
-      "JavaScript",
-      "Node.js",
-      "Express",
-      "C++"
+      "Frameworks",
+      "HTML",
+      "CSS"
     ],
     "Intermedio": [
-      "Postman",
-      "HTML",
-      "CSS",
-      "PHP",
-      "Vue.js"
-    ],
-    "Avanzado": [
       "Scala",
+      "Java",
+      "pandas",
       "REST APIs",
-      "DBT",
+      "Go",
       ".NET",
+      "C#",
+      ".NET Framework",
+      "Django",
+      "JavaScript",
+      "PHP",
       "React",
       "Angular",
+      "Vue.js",
+      "Node.js",
+      "Express",
       "GraphQL"
+    ],
+    "Avanzado": [
+      "C++"
     ]
   },
   "Bases de Datos": {
     "Fundamento": [
-      "SQL",
-      "Firestore",
-      "Hive Metastore",
-      "MongoDB"
+      "Firestore"
     ],
     "Intermedio": [
-      "MySQL",
-      "Snowflake",
-      "ClickHouse",
-      "Trino",
-      "Pinot"
-    ],
-    "Avanzado": [
       "PostgreSQL",
+      "MySQL",
       "NoSQL",
-      "BigQuery",
-      "Redshift",
+      "ClickHouse",
       "Bigtable",
       "Spanner",
-      "Databricks Lakehouse",
-      "Fivetran",
-      "Delta Lake",
-      "Microsoft SQL Server"
+      "Pinot",
+      "Hive Metastore",
+      "Dataverse",
+      "Microsoft SQL Server",
+      "MongoDB"
+    ],
+    "Avanzado": [
+      "Snowflake",
+      "Trino",
+      "Delta Lake"
     ]
   },
   "Orquestación": {
     "Fundamento": [],
     "Intermedio": [
       "Airflow",
-      "Prefect"
-    ],
-    "Avanzado": [
-      "Kubernetes",
-      "Microsoft Fabric"
-    ]
-  },
-  "Arquitectura y Gobernanza de Datos": {
-    "Fundamento": [
-      "Data Modeling",
-      "Data Quality"
-    ],
-    "Intermedio": [
       "dbt",
-      "Data Science"
+      "Cloud Composer",
+      "Apache Oozie",
+      "Fivetran",
+      "Power Automate"
     ],
     "Avanzado": [
-      "Data Architecture",
-      "Data Governance"
+      "Prefect",
+      "Flyte"
     ]
   },
   "Procesamiento Distribuido": {
-    "Fundamento": [
-      "Databricks"
-    ],
+    "Fundamento": [],
     "Intermedio": [
       "Dataflow",
-      "Hadoop"
+      "Snowpark"
     ],
     "Avanzado": [
       "Spark",
+      "Hadoop",
       "Apache Beam"
     ]
   },
   "Streaming": {
-    "Fundamento": [
-      "Pub/Sub"
-    ],
+    "Fundamento": [],
     "Intermedio": [
-      "Flink",
-      "Cursor"
+      "Kafka",
+      "Pub/Sub",
+      "Estuary"
     ],
     "Avanzado": [
-      "Kafka"
+      "Flink"
     ]
   },
   "DevOps/Infraestructura": {
     "Fundamento": [
-      "Docker",
-      "Terraform",
-      "Azure DevOps",
-      "ETL/ELT-Prozesse",
-      "IaC deployment",
-      "Git",
       "Jira",
-      "IaC",
-      "Power Automate"
+      "Postman"
     ],
     "Intermedio": [
+      "Docker",
+      "Terraform",
       "CI/CD",
-      "Data Pipelines",
+      "Azure DevOps",
+      "DevOps",
+      "CI/CD pipeline management",
       "Automatisierung",
+      "Monitoring",
+      "Logging",
+      "GitHub Actions",
       "infrastructure as Code (IaC)",
-      "Azure Data Factory",
-      "Django",
-      "DataOps"
+      "IaC deployment",
+      "Git",
+      "IaC (Infrastructure as Code)"
     ],
-    "Avanzado": []
+    "Avanzado": [
+      "Kubernetes",
+      "DataOps"
+    ]
   },
   "Cloud": {
     "Fundamento": [
+      "Cloud Storage"
+    ],
+    "Intermedio": [
+      "AWS",
+      "GCP",
       "Azure",
+      "BigQuery",
+      "Redshift",
       "Cloud",
-      "Cloud Storage",
-      "Azure Databricks",
+      "Microsoft Fabric",
+      "Azure Data Factory",
       "S3",
       "AWS Lambda",
       "Amazon S3"
     ],
-    "Intermedio": [
-      "Openbridge",
-      "Estuary",
-      "Azure Synapse"
-    ],
     "Avanzado": [
-      "AWS",
-      "GCP",
-      "AWS Cloud"
+      "Databricks",
+      "AWS Cloud",
+      "Databricks Lakehouse",
+      "Azure Databricks",
+      "Azure Synapse"
     ]
   },
-  "BI/Analytics": {
-    "Fundamento": [
-      "Power Apps",
-      "Power Platform"
-    ],
+  "Arquitectura y Gobernanza de Datos": {
+    "Fundamento": [],
     "Intermedio": [
-      "Power BI",
-      "Claude Code"
+      "Great Expectations",
+      "Change Data Capture",
+      "Data Quality"
     ],
     "Avanzado": [
+      "Data Pipelines",
+      "Data Modeling",
       "Data Warehousing",
-      "Data Analytics",
-      "Gemini Enterprise",
-      "Data Visualization"
+      "Data Architecture",
+      "Iceberg",
+      "ETL/ELT-Prozesse",
+      "Datenmodellierung",
+      "Bronze-, Silver- und Gold-Layer-Architekturen",
+      "Datenqualitätsmanagement",
+      "Performance-Optimierung",
+      "DBT (Data Build Tool)",
+      "Data Governance"
     ]
   },
   "Machine Learning/IA": {
     "Fundamento": [
-      "Codex"
+      "Cortex",
+      "Gemini Enterprise",
+      "Cursor"
     ],
     "Intermedio": [
       "Machine Learning",
-      "GitHub Copilot",
-      "Scikit-learn",
-      "TensorFlow"
-    ],
-    "Avanzado": [
+      "Vertex AI",
+      "scikit-learn",
       "XGBoost",
       "LightGBM",
-      "Cortex",
+      "Claude Code",
+      "Codex",
+      "Scikit-learn",
       "Keras"
+    ],
+    "Avanzado": [
+      "LLM agents",
+      "Data Science",
+      "TensorFlow"
     ]
   },
-  "Otras": {
+  "BI/Analytics": {
     "Fundamento": [],
     "Intermedio": [
-      "Iceberg",
-      "Airbnb"
+      "Data Analytics",
+      "Power BI",
+      "Power Apps",
+      "Data Visualization",
+      "Power Platform"
     ],
     "Avanzado": []
   },
-  "Sin Clasificar": {
-    "Fundamento": [],
-    "Intermedio": [
-      "Cloud Composer",
-      "Vertex AI",
-      "DevOps",
-      "CI/CD pipeline management",
-      "Apache Oozie",
-      "scikit-learn",
-      "pandas",
-      "Datenmodellierung",
-      "Bronze-, Silver- und Gold-Layer-Architekturen",
-      "Datenqualitätsmanagement",
-      "Monitoring",
-      "Logging",
-      "Performance-Optimierung",
-      "GitHub Actions",
-      "DBT (Data Build Tool)",
-      "IaC (Infrastructure as Code)",
-      "Dataverse",
-      "Great Expectations",
-      "Snowpark",
-      "Flyte",
-      "LLM agents",
-      "Change Data Capture",
-      "Go",
+  "Otras": {
+    "Fundamento": [
+      "Openbridge",
+      "GitHub Copilot",
       "Hybrid working",
-      ".NET Framework",
       "Salesloft",
-      "Frameworks",
       "Propiedad",
       "Sectores de software",
-      "Pagos"
+      "Pagos",
+      "Airbnb"
     ],
+    "Intermedio": [],
     "Avanzado": []
   }
 }
