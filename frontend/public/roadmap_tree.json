@@ -1,0 +1,216 @@
+{
+  "Lenguajes": {
+    "Fundamento": [
+      "Python",
+      "SQL",
+      "NumPy",
+      "Frameworks",
+      "HTML",
+      "CSS"
+    ],
+    "Intermedio": [
+      "Scala",
+      "Java",
+      "pandas",
+      "REST APIs",
+      "Go",
+      ".NET",
+      "C#",
+      ".NET Framework",
+      "Django",
+      "JavaScript",
+      "PHP",
+      "React",
+      "Angular",
+      "Vue.js",
+      "Node.js",
+      "Express",
+      "GraphQL"
+    ],
+    "Avanzado": [
+      "C++"
+    ]
+  },
+  "Bases de Datos": {
+    "Fundamento": [
+      "Firestore"
+    ],
+    "Intermedio": [
+      "PostgreSQL",
+      "MySQL",
+      "NoSQL",
+      "ClickHouse",
+      "Bigtable",
+      "Spanner",
+      "Pinot",
+      "Hive Metastore",
+      "Dataverse",
+      "Microsoft SQL Server",
+      "MongoDB"
+    ],
+    "Avanzado": [
+      "Snowflake",
+      "Trino",
+      "Delta Lake"
+    ]
+  },
+  "Orquestación": {
+    "Fundamento": [],
+    "Intermedio": [
+      "Airflow",
+      "dbt",
+      "Cloud Composer",
+      "Apache Oozie",
+      "Fivetran",
+      "Power Automate"
+    ],
+    "Avanzado": [
+      "Prefect",
+      "Flyte"
+    ]
+  },
+  "Procesamiento Distribuido": {
+    "Fundamento": [],
+    "Intermedio": [
+      "Dataflow",
+      "Snowpark"
+    ],
+    "Avanzado": [
+      "Spark",
+      "Hadoop",
+      "Apache Beam"
+    ]
+  },
+  "Streaming": {
+    "Fundamento": [],
+    "Intermedio": [
+      "Kafka",
+      "Pub/Sub",
+      "Estuary"
+    ],
+    "Avanzado": [
+      "Flink"
+    ]
+  },
+  "DevOps/Infraestructura": {
+    "Fundamento": [
+      "Jira",
+      "Postman"
+    ],
+    "Intermedio": [
+      "Docker",
+      "Terraform",
+      "CI/CD",
+      "Azure DevOps",
+      "DevOps",
+      "CI/CD pipeline management",
+      "Automatisierung",
+      "Monitoring",
+      "Logging",
+      "GitHub Actions",
+      "infrastructure as Code (IaC)",
+      "IaC deployment",
+      "Git",
+      "IaC (Infrastructure as Code)"
+    ],
+    "Avanzado": [
+      "Kubernetes",
+      "DataOps"
+    ]
+  },
+  "Cloud": {
+    "Fundamento": [
+      "Cloud Storage"
+    ],
+    "Intermedio": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "BigQuery",
+      "Redshift",
+      "Cloud",
+      "Microsoft Fabric",
+      "Azure Data Factory",
+      "S3",
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "Avanzado": [
+      "Databricks",
+      "AWS Cloud",
+      "Databricks Lakehouse",
+      "Azure Databricks",
+      "Azure Synapse"
+    ]
+  },
+  "Arquitectura y Gobernanza de Datos": {
+    "Fundamento": [],
+    "Intermedio": [
+      "Great Expectations",
+      "Change Data Capture",
+      "Data Quality"
+    ],
+    "Avanzado": [
+      "Data Pipelines",
+      "Data Modeling",
+      "Data Warehousing",
+      "Data Architecture",
+      "Iceberg",
+      "ETL/ELT-Prozesse",
+      "Datenmodellierung",
+      "Bronze-, Silver- und Gold-Layer-Architekturen",
+      "Datenqualitätsmanagement",
+      "Performance-Optimierung",
+      "DBT (Data Build Tool)",
+      "Data Governance"
+    ]
+  },
+  "Machine Learning/IA": {
+    "Fundamento": [
+      "Cortex",
+      "Gemini Enterprise",
+      "Cursor"
+    ],
+    "Intermedio": [
+      "Machine Learning",
+      "Vertex AI",
+      "scikit-learn",
+      "XGBoost",
+      "LightGBM",
+      "Claude Code",
+      "Codex",
+      "Scikit-learn",
+      "Keras"
+    ],
+    "Avanzado": [
+      "LLM agents",
+      "Data Science",
+      "TensorFlow"
+    ]
+  },
+  "BI/Analytics": {
+    "Fundamento": [],
+    "Intermedio": [
+      "Data Analytics",
+      "Power BI",
+      "Power Apps",
+      "Data Visualization",
+      "Power Platform"
+    ],
+    "Avanzado": []
+  },
+  "Otras": {
+    "Fundamento": [
+      "Openbridge",
+      "GitHub Copilot",
+      "Hybrid working",
+      "Salesloft",
+      "Propiedad",
+      "Sectores de software",
+      "Pagos",
+      "Airbnb"
+    ],
+    "Intermedio": [],
+    "Avanzado": []
+  }
+}

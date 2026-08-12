@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/raw/*.json
+data/processed/*.json
+data/cache/
+.env
+node_modules/
+frontend/node_modules/
+frontend/dist/

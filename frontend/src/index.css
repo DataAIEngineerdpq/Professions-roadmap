@@ -1,0 +1,189 @@
+/* ===========================================================
+   TOKENS DE DISEÑO
+   Todos los colores y medidas viven acá. Cambiás un valor y
+   cambia toda la app: no hay colores sueltos por el código.
+   =========================================================== */
+:root {
+  --bg:         #0b0e14;
+  --surface:    #131822;
+  --surface-2:  #1a2130;
+  --line:       #252d3d;
+  --text:       #e2e8f2;
+  --muted:      #78849a;
+  --accent:     #5eead4;
+  --accent-2:   #2d7d75;
+  --warn:       #f0a836;
+
+  --radius: 10px;
+  --gap: 1rem;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', monospace;
+  font-size: 14px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Gradiente sutil de fondo: da profundidad sin distraer */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(94, 234, 212, 0.06), transparent);
+  pointer-events: none;
+}
+
+.app { max-width: 940px; margin: 0 auto; padding: 3rem 1.25rem 6rem; position: relative; }
+
+/* --- Encabezado --- */
+.header { margin-bottom: 2rem; }
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  margin: 0 0 0.75rem;
+}
+
+.title {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: clamp(1.9rem, 6vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin: 0 0 0.75rem;
+}
+
+.tagline { color: var(--muted); margin: 0; max-width: 52ch; }
+
+.stats { display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 1.75rem; }
+.stat-value {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.6rem; font-weight: 700; color: var(--accent);
+  line-height: 1;
+}
+.stat-label { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+
+/* --- Controles --- */
+.toolbar { display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 2rem 0 1.5rem; }
+
+.search {
+  flex: 1; min-width: 200px;
+  background: var(--surface); border: 1px solid var(--line); color: var(--text);
+  font-family: inherit; font-size: 0.88rem;
+  padding: 0.65rem 0.9rem; border-radius: var(--radius);
+  transition: border-color 0.15s ease;
+}
+.search:focus { outline: none; border-color: var(--accent-2); }
+.search::placeholder { color: var(--muted); }
+
+.btn {
+  background: var(--surface); border: 1px solid var(--line); color: var(--muted);
+  font-family: inherit; font-size: 0.8rem;
+  padding: 0.65rem 1rem; border-radius: var(--radius); cursor: pointer;
+  transition: all 0.15s ease;
+}
+.btn:hover { color: var(--text); border-color: var(--accent-2); }
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* --- Categoría --- */
+.category {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+  transition: border-color 0.15s ease;
+}
+.category:hover { border-color: #303a4d; }
+
+.cat-header {
+  width: 100%; display: flex; align-items: center; gap: 0.85rem;
+  padding: 1rem 1.1rem;
+  background: none; border: none; cursor: pointer;
+  color: var(--text); font-family: inherit; font-size: 0.95rem; text-align: left;
+}
+.cat-header:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+.chevron { color: var(--muted); flex-shrink: 0; transition: transform 0.2s ease; }
+.chevron.open { transform: rotate(90deg); color: var(--accent); }
+
+.cat-name { font-family: 'Space Grotesk', sans-serif; font-weight: 500; flex: 1; }
+
+.cat-count {
+  font-size: 0.75rem; color: var(--muted);
+  background: var(--surface-2); padding: 0.15rem 0.5rem; border-radius: 20px;
+}
+
+.share-bar { height: 2px; background: var(--surface-2); }
+.share-fill { height: 100%; background: linear-gradient(90deg, var(--accent-2), var(--accent)); }
+
+/* --- Contenido desplegable --- */
+.cat-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+}
+.cat-body.open { grid-template-rows: 1fr; }
+.cat-body > div { overflow: hidden; }
+
+.levels { padding: 0.4rem 1.1rem 1.2rem; }
+
+.level { margin-top: 1rem; }
+.level-label {
+  display: flex; align-items: center; gap: 0.6rem;
+  font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 0.6rem;
+}
+.level-label::after { content: ''; flex: 1; height: 1px; background: var(--line); }
+
+.skills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+.skill {
+  padding: 0.32rem 0.7rem;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-left-width: 2px;
+  border-radius: 5px;
+  font-size: 0.82rem;
+  transition: all 0.15s ease;
+}
+.skill:hover { border-color: var(--accent-2); transform: translateY(-1px); }
+
+.level-fundamento .skill { border-left-color: var(--accent); }
+.level-intermedio .skill { border-left-color: var(--accent-2); }
+.level-avanzado   .skill { border-left-color: var(--warn); }
+
+.skill.match {
+  background: var(--accent); color: var(--bg);
+  border-color: var(--accent); font-weight: 500;
+}
+
+/* --- Leyenda y estados --- */
+.legend {
+  display: flex; gap: 1.5rem; flex-wrap: wrap;
+  margin-top: 2.5rem; padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.75rem; color: var(--muted);
+}
+.legend-dot { display: inline-block; width: 12px; height: 2px; margin-right: 0.5rem; vertical-align: middle; }
+
+.state { padding: 3rem 1rem; text-align: center; color: var(--muted); }
+.state.error { color: var(--warn); }
+.state code {
+  background: var(--surface-2); padding: 0.15rem 0.45rem;
+  border-radius: 4px; font-size: 0.9em; color: var(--text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before { transition: none !important; animation: none !important; }
+}
